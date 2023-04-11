@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .dive{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        cursor: pointer;
+    }
+    .div1{
+        background-color: red;
+        margin-top: 30px;
+        margin-left: 30px;
+        z-index: 2;
+        
+    }
+    .div2{
+        background-color: rgba(99, 255, 71, 0.4);
+        color: white;
+        font-size: large;
+        margin-top: 30px;
+        margin-left: 30px;
+        z-index: 1;
+        text-align: center;
+        padding-top: 100px;
+        box-sizing: border-box;
+        
+    }
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    .div1:hover{
+        z-index: -1;
+        
+    }
+    
+</style>
+
+
+</head>
+<body>
+    <div class="dive div1">
+        <img src="image/taj.jpg" alt="">
+    </div>
+    <div class="dive div2">TAJ MAHAL</div>
+   
+</body>
+</html>
