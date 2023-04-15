@@ -1,0 +1,150 @@
+HTML   
+    The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language.
+
+    HTML is not a programming language. It's a markup language. In fact, that is the technology's name:HyperText Markup Language
+
+    HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the world wide web. HyperText allows a user to click a link and be redirected to a new page referenced by that link.   
+   
+    simple to understand and implement. 
+    Completely free. 
+    Every browser supports HTML. 
+    Most search engine friendly. 
+    Simple to Edit.
+    Simple to integrate with other languages.
+    Lightweight and quick.
+   
+    Basic HTML Tags:-
+    Head Tag. The head tag <head> contains all the elements describing the document.
+    Title Tag. The title tag <title> specifies the HTML page title, which is shown in the browser's title bar.
+    Body Tag. The body tag <body> is where you insert your web page's content.
+    Paragraph Tag.
+    Heading Tag.
+
+    Basic Structure:-
+    The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+    The <html> element is the root element of an HTML page
+    The <head> element contains meta information about the HTML page
+    The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+    The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+    The <h1> element defines a large heading
+    The <p> element defines a paragraph.
+
+    HTML Syntax:-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <h2>Head element </h2>   
+        <p>Paragraph</p>
+        <h2>Head Tag</h2>
+        <p>Paragraph</p>
+        <h2 style="text-align:center">text-align:center</h2>
+    </body>
+    </html>
+
+CSS
+    CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces.
+
+    Cascading Style Sheets (CSS) is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements. This style sheet language also allows you to add effects or animations to your website.
+
+    CSS stands for Cascading Style Sheets. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+    In short, CSS is a design language that makes a website look more appealing than just plain or uninspiring pieces of text. Whereas HTML largely determines textual content, CSS determines visual structure, layout, and aesthetics. HTML is a markup language, and CSS is a style sheet language.
+
+    CSS can be added to HTML documents in 3 ways:-
+    Inline - by using the style attribute inside HTML elements.
+    Internal - by using a <style> element in the <head> section.
+    External - by using a <link> element to link to an external CSS file.
+
+    Syntax for CSS?
+    The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value, separated by a colon.
+
+    selector{Property:Values;}
+    Eg. table{
+        border:1px solid blue;
+    }
+    table ---> selector
+    {......} ---> declaration
+    border ---> Property
+    1px solid blue ---> values.
+
+Bootstrap
+    Bootstrap is a CSS framework and toolkit.
+    Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the newest version of Bootstrap.
+    Bootstrap is a platform for web development based on a front-end framework. It is used to create exceptional responsive designs using HTML, and CSS. These templates are used for forms, tables, buttons, typography, models, tables, navigation, carousels and images.
+
+    Main concept of Bootstrap?
+    Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.
+
+    Bootstrap provides three types of form layouts:- Vertical form (this is default) Horizontal form. Inline form.
+
+    Bootstrap comes with three different containers:- container , which sets a max-width at each responsive breakpoint. .container-fluid , which is width :100% at all breakpoints. .container-{breakpoint} , which is width :100% until the specified breakpoint.
+
+    Where to Get Bootstrap?
+    There are two ways to start using Bootstrap on your own web site.
+    You can:-
+    1. Download Bootstrap from getbootstrap.com (or) 
+    2. Include Bootstrap from a CDN
+    Downloading Bootstrap
+    If you want to download and host Bootstrap yourself, go to getbootstrap.com, and follow the instructions there.
+    Bootstrap CDN
+    If you don't want to download and host Bootstrap yourself, you can include it from a CDN (Content Delivery Network).
+
+    MaxCDN provides CDN support for Bootstrap's CSS and JavaScript. You must also include jQuery:-
+
+    MaxCDN:-
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    First, paste the given below link in the head tag,
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    Second, paste the Script tag given below just befor closing the body tag,
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+JavaScript
+    JavaScript is a light-weight object-oriented programming language that is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language. JavaScript enables dynamic interactivity on websites when it is applied to an HTML document.
+
+    JavaScript helps the users to build modern web applications to interact directly without reloading the page every time. JavaScript is commonly used to dynamically modify HTML and CSS to update a user interface by the DOM API. It is mainly used in web applications.
+
+    1. Web Applications
+    As day-by-day there is a continuous improvement in the browsers, so JavaScript gained popularity for making robust web applications. We can understand it by taking the example of Google Maps. In Maps user just requires to click and drag the mouse; the details are visible just by a click. There is a use of JavaScript behind these concepts.
+
+    2. Web Development
+    JavaScript is commonly used for creating web pages. It allows us to add dynamic behavior to the webpage and add special effects to the webpage. On websites, it is mainly used for validation purposes. JavaScript helps us to execute complex actions and also enables the interaction of websites with visitors. Using JavaScript, it is also possible to load the content in a document without reloading the webpage.
+
+    3. Mobile Applications
+    Now a day's mobile devices are broadly used for accessing the internet. Using JavaScript, we can also build an application for non-web contexts. The features and uses of JavaScript make it a powerful tool for creating mobile applications. The React Native is the widely used JavaScript framework for creating mobile applications. Using React Native, we can build mobile applications for different operating systems. We do not require writing different codes for the iOS and Android operating systems. We only need to write it once and run it on different platforms.
+
+    4. Game
+    JavaScript is also used for creating games. It has various libraries and frameworks for creating a game. The game can either be a 2D or 3D. Some JavaScript game engines such as PhysicsJS, Pixi.js help us to create a web game. We can also use the WebGL (web graphics library), which is the JavaScript API to render 2D and 3D images on browsers.
+
+    5. Presentations
+    JavaScript also helps us to create presentations as a website. The libraries, such as RevealJs, and BespokeJs, can be used to create a web-based slide deck. They are easier to use, so we can easily make something amazing in a short time.
+
+    The Reveal.js is used to create interactive and beautiful slide decks with the help of HTML. These presentations work great with mobile devices and tablets. It also supports all of the CSS color formats. The BespokeJS includes animated bullet lists, responsive scaling, and a wide variety of features.
+
+    6. Server Applications
+    A large number of web applications have a server-side to them. JavaScript is used to generate content and handle HTTP requests. JavaScript can also run on servers through Node.js. The Node.js provides an environment containing the necessary tools required for JavaScript to run on servers.
+
+    7. Web Servers
+    A web server can be created by using Node.js. Node.js is event-driven and not waits for the response of the previous call. The servers created using Node.js are fast and don't use buffering and transfer chunks of data. The HTTP module can be used to create the server by using the createServer() method. This method executes when someone tries to access the port 8080. As a response, the HTTP server should display HTML and should be included in the HTTP header.
+
+    In this article, we discussed various JavaScript applications. JavaScript has various other uses that help us to improve the performance of webpages. The other uses of JavaScript are listed as follows:-
+
+    Client-side validation.
+    Displaying date and time.
+    To validate the user input before submission of the form.
+    Open and close new windows.
+    To display dialog boxes and pop-up windows.
+    To change the appearance of HTML documents.
+    To create the forms that respond to user input without accessing the server.
