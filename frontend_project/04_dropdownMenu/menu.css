@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container ul{
+
+    list-style: none;
+
+}
+
+.container ul li{
+
+    background-color: rgba(24, 23, 24);
+    width: 150px;
+    border: 1px solid white;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: white;
+    position: relative;
+
+}
+
+.container ul li:hover{
+
+    background-color: rgb(8, 240, 8, 0.651);
+
+}
+
+.container ul ul ul{
+
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;
+
+}
+
+.container ul ul{
+
+    display: none;
+
+}
+
+.container ul li:hover > ul{
+
+    display: block;
+
+}
